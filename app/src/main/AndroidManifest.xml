@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider android:name="StudentsProvider"
+            android:authorities="com.example.home_pc.examplecontentprovider.StudentsProvider"/>
     </application>
 
 </manifest>
